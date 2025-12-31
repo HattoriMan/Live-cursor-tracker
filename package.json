@@ -5,7 +5,7 @@
   "scripts": {
     "install:all": "cd client && npm install && cd ../server && npm install",
     "build": "cd client && npm run build",
-    "start": "npm run build && cd server && node index.js",
+    "start": "cd server && node index.js",
     "dev": "concurrently \"cd server && nodemon index.js\" \"cd client && npm start\""
   },
   "devDependencies": {
