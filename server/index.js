@@ -8,8 +8,8 @@ const server = http.createServer(app);
 const clientBuildPath = path.join(__dirname, "../client/build");
 
 const allowedOrigins = [
-  "https://your-app.onrender.com",
-  "http://localhost:3000"
+  "https://live-cursor-tracker.onrender.com",
+  "http://localhost:3001"
 ];
 
 const io = new Server(server, {
